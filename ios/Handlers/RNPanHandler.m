@@ -206,7 +206,7 @@
   APPLY_FLOAT_PROP(failOffsetYStart);
   APPLY_FLOAT_PROP(failOffsetYEnd);
 
-// #if !TARGET_OS_TV
+#if !TARGET_OS_TV
 //   if (@available(iOS 13.4, *)) {
 //     bool enableTrackpadTwoFingerGesture = [RCTConvert BOOL:config[@"enableTrackpadTwoFingerGesture"]];
 //     if(enableTrackpadTwoFingerGesture){
